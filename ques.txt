@@ -1,3 +1,14 @@
 hey all, assigingn some questions/ Assigments to u.
 If u work on them , helps in achieving better results!
 
+Implement the following JSON problem and use Mock for testing your code.
+
+Write a piece of code that will query a URL that returns JSON and can parse the JSON string to pull out pieces of information. The information that should be parsed and returned is the pageid and the list of “See Also” links. Those links should be formatted to be actual links that can be used by a person to find the appropriate article. 
+
+Use the Wikipedia API for the query. A sample query is: 
+http://en.wikipedia.org/w/api.php?format=json&action=query&titles=SMALL&prop=revisions&rvprop=content 
+
+Other queries can be generated changing the “titles” portion of the query string. The code to parse the JSON and pull the “See Also” links should be generic enough to work on any Wikipedia article.  
+All inputs and outputs can occur through the command line. 
+Extra work, have output write to a file. 
+
